@@ -1,12 +1,14 @@
 package com.kata.foobarquix.utils;
 
 public class FooBarQuixTraitementsMetiers {
+    // dans service ?
     public static Boolean isDivisible357(int number) {
         return (number % 3 == 0
                 || number % 5 == 0
                 || number % 7 == 0);
     }
 
+    // dans service ?
     public static Boolean isContain357(int number)  {
         String numberString = String.valueOf(number);
         return numberString.contains("3")
@@ -14,6 +16,7 @@ public class FooBarQuixTraitementsMetiers {
                 || numberString.contains("7");
     }
 
+    // dans service ?
     public static String fooBarQuixMethod(int number) {
         StringBuilder retour = new StringBuilder();
         String numberString = String.valueOf(number);

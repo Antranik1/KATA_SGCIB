@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
+// utiliser junit
+// assert de kotlin
 class FooBarQuixtraitementsMetiersTests {
     @Test
     fun isDivisibleEnonce_test_3()  {

@@ -1,7 +1,7 @@
 package com.kata.foobarquix.utils;
 
 public enum FooBarQuixStringsEnum {
-    SHOULD_RETURN(" should return "),
+    SHOULD_RETURN(" and the result is "),
     FOO("Foo"),
     BAR("Bar"),
     QUIX("Quix");

@@ -14,6 +14,6 @@ class FooBarQuixController(private val  fooBarQuixService: FooBarQuixService) {
         return ResultDto(fooBarQuixService.convertNumber(inputNumber))
     }
 
-    data class ResultDto(val result : String)
+    data class ResultDto(val result : String) // mettre le should return ici
 
 }

@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component
 class FooBarQuixService {
 
     fun convertNumber(inputNumber: Int): String {
+        // if inputNumber null ?
+        // purement dans la sortie => dans le dto
         var convertedNumber = StringBuilder();
         convertedNumber.append(inputNumber.toString())
             .append(FooBarQuixStringsEnum.SHOULD_RETURN.texte);
